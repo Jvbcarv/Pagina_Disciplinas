@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+
+h1, h3 {
+  text-align: center;
+  color: #06050a;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 auto 20px auto;
+  font-size: 14px; 
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 6px; 
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+
+th:nth-child(1), th:nth-child(2), th:nth-child(4),
+td:nth-child(1), td:nth-child(2), td:nth-child(4) {
+  text-align: center;
+}
+
+.modulo td {
+  background-color: #ddd;
+  font-weight: bold;
+  text-align: center;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.2); 
+  cursor: pointer;
+}
+
+#resultado {
+  width: 50%;
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 0 auto 20px auto;
+  font-size: 14px;
+}
+
+#total {
+  color: rgb(219, 29, 29);
+  font-weight: bold;
+}
+
+/* Estilização do JS */
+#lista li {
+  margin-bottom: 6px; 
+  line-height: 1.4;   
+}
